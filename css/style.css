@@ -1,0 +1,102 @@
+#bod {
+    background: url(../images/street2.jpg) no-repeat;
+    background-size: cover;
+}
+
+.quotes {
+padding-top: 20%;
+font-size: 200%;
+}
+.author {
+  padding-top: 5px;
+  font-size: 1em;
+}
+
+#logobig {
+
+  width: 50%;
+  height: 50%;
+}
+
+#logosmall {
+
+  width: 70%;
+  height: 70%;
+}
+
+#logosmallnav{
+  width: 100%;
+  height: 100%;
+}
+
+.emoji {
+  width: 45%;
+}
+
+
+.full {
+  width: 100%;
+  height: 100%;
+}
+
+
+.indent20 {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.indent10 {
+  margin-left: 20px;
+
+}
+
+
+#maincontain {
+    border-radius: 15px;
+    margin-top: 10%;
+
+    padding: 20px;
+    width: 90%;
+    /*height: 500px;*/
+
+}
+
+#maincontain2 {
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    /*height: 500px;*/
+
+}
+
+
+#round {
+  border-radius: 25px;
+
+}
+
+
+#navindent {
+  padding-left: 20px;
+  font-size: 20px;
+  color: gray;
+}
+
+.cardpic {
+  background: url(../images/hills2.jpg) no-repeat;
+  background-size: cover;
+
+}
+
+
+.navtextcol {
+color: #cccccc;
+
+}
+
+.parallax-container {
+      height: 450px;
+    }

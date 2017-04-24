@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>moodmatch: sign-in</title>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+
+
+</head>
+
+<body id="bod">
+
+
+    <!-- Top navbar -->
+<div class="navbar-fixed">
+    <nav class="blue-grey darken-3">
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo center"><img src="images/logo1.svg" class="indent20" id="logosmall"></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <!-- <img src="images/logo.svg" class="indent20" id="logosmallnav"> -->
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">home</a></li>
+        <li><a href="#">sign-in</a></li>
+        <li><a href="#">contact us</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="index.html">home</a></li>
+        <li><a href="#">sign-in</a></li>
+        <li><a href="#">contact us</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+
+
+
+
+
+    <!-- Page Layout here -->
+
+    <!-- this is the inner white container -->
+
+    <div class="row z-depth-3 transparent" id="maincontain2">
+
+
+        <div class="row">
+            <div class="col s12">
+              <div class="row">
+                <div class="col m1 l2"></div><div class="col s12 m10 l8">
+                    <div class="card cardpic" id="round">
+                      <div class="card-content white-text">
+                        <span class="card-title">Sign-up</span>
+
+
+
+                        <!-- This is the form -->
+                        <div class="row">
+                            <div class="col m1 l2"></div><form class="col s12 m10 l8">
+
+
+                              <div class="row">
+                                <div class="input-field col s8" id="round">
+                                  <input id="first_name" type="email" class="validate">
+                                  <label for="email">Email</label>
+                                </div>
+
+                              </div>
+
+
+                              <div class="row">
+                                <div class="input-field col s10" id="round">
+                                  <input id="email" type="password" class="validate">
+                                  <label for="password">Password</label>
+                                </div>
+                              </div>
+
+
+                              <div class="card-action right">
+                                <span><button class="waves-effect waves-yellow btn blue lighten-2" id="register" href="" type="submit" name="action">register</button></span>
+                                <span><button class="waves-effect waves-blue btn green lighten-2" id="signin" href="" type="submit">sign-in</button></span>
+
+                              </div>
+                            </form>
+
+                        
+                          </div>
+
+                        <!-- form ends here -->
+                      </div>
+
+                    </div>
+                    </div><div class="col m1 l2"></div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <script src="js/XXXXXXXXX.js"></script> -->
+
+    <script>
+        $(document).ready(function() {
+            $(".button-collapse").sideNav();
+        })
+    </script>
+
+</body>
+
+</html>

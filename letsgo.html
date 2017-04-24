@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>moodmatch: Your mood?</title>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+    <!-- Top navbar -->
+    <div class="navbar-fixed">
+        <nav class="blue-grey darken-3">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo center"><img src="images/logo1.svg" class="indent20" id="logosmall"></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <!-- <img src="images/logo.svg" class="indent20" id="logosmallnav"> -->
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="signin.html">sign-in</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="signin.html">sign-in</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/laughingLady2.jpg"></div>
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="quotes">The advantage of the emotions is that they lead us astray.</div>
+                <div class="author">- Oscar Wilde -</div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Page Layout here -->
+    <div class="section">
+
+
+
+        <!-- place for emojis -->
+
+        <div class="row">
+            <div class="col s12 center flow-text">Select your current emotion.</div>
+        </div>
+
+        <div class="row">
+            <div class="col s6 center">
+
+
+        <a class="btn btn-flat btn-large transparent" href="#modal1"><img src="images/heart.png" id="love" class="emoji tooltipped" data-position="top" data-tooltip="In Love"></a>
+
+        <a class="btn btn-flat btn-large transparent" href="#modal2"><img src="images/cool.png" id="cool" class="emoji tooltipped" data-position="top" data-tooltip="I'm Cool"></a>
+
+
+        <a class="btn btn-flat btn-large transparent" href="#modal3"><img src="images/laugh.png" id="laugh" class="emoji tooltipped" data-position="top" data-tooltip="Feeling Great"></a>
+
+</div>
+<div class="col s6 center">
+
+        <a class="btn btn-flat btn-large transparent" href="#modal4"><img src="images/yuck.png" id="yuck" class="emoji tooltipped" data-position="top" data-tooltip="Not Sure"></a>
+
+
+        <a class="btn btn-flat btn-large transparent" href="#modal5"><img src="images/mad.png" id="mad" class="emoji tooltipped" data-position="top" data-tooltip="Not Happy"></a>
+
+        <a class="btn btn-flat btn-large transparent" href="#modal6"><img src="images/happy.png" id="happy" class="emoji tooltipped" data-position="top" data-tooltip="Feeling Good"></a>
+
+
+
+            </div>
+
+</div>
+
+
+            <!-- end emojis -->
+
+
+
+
+
+
+
+
+            <!-- Modal Trigger -->
+              <!-- <a class="btn btn-flat btn-large transparent" href="#modal1">Modal</a> -->
+            <!-- Modal Structure -->
+              <div id="modal1" class="modal bottom-sheet">
+                <div class="modal-content">
+                  <h4>In Love</h4>
+                  <p>A bunch of text</p>
+                  <div>words</div>
+                  <div>words</div>
+                  <div>words</div>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+              </div>
+
+
+              <div id="modal2" class="modal bottom-sheet">
+                <div class="modal-content">
+                  <h4>I'm Cool</h4>
+                  <p>A bunch of text</p>
+                  <div>words</div>
+                  <div>words</div>
+                  <div>words</div>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+              </div>
+
+
+
+
+              <div id="modal3" class="modal bottom-sheet">
+                <div class="modal-content">
+                  <h4>Feeling Great</h4>
+                  <p>A bunch of text</p>
+                  <div>words</div>
+                  <div>words</div>
+                  <div>words</div>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+              </div>
+
+
+
+
+              <div id="modal4" class="modal bottom-sheet">
+                <div class="modal-content">
+                  <h4>Not Sure</h4>
+                  <p>A bunch of text</p>
+                  <div>words</div>
+                  <div>words</div>
+                  <div>words</div>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+              </div>
+
+
+
+
+              <div id="modal5" class="modal bottom-sheet">
+                <div class="modal-content">
+                  <h4>Not Happy</h4>
+                  <p>A bunch of text</p>
+                  <div>words</div>
+                  <div>words</div>
+                  <div>words</div>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+              </div>
+
+
+
+
+              <div id="modal6" class="modal bottom-sheet">
+                <div class="modal-content">
+                  <h4>Feeling Good</h4>
+                  <p>A bunch of text</p>
+                  <div>words</div>
+                  <div>words</div>
+                  <div>words</div>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+        <div class="parallax-container">
+            <div class="parallax"><img src="images/crazyGuy2.jpg"></div>
+        </div>
+
+
+
+
+
+
+
+        <!-- <script src="js/js.js"></script> -->
+
+        <script>
+            $(document).ready(function() {
+                $(".button-collapse").sideNav();
+                $('.parallax').parallax();
+                $('.modal').modal();
+            })
+
+            function hearthov() {
+
+
+            }
+        </script>
+
+</body>
+
+</html>
